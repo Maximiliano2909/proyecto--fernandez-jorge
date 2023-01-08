@@ -67,12 +67,7 @@ background-color:blueviolet;
 color:white;
 transition: 0,2s ease-in;
 }
-.btn-principal :hover{
-    border: 2px solid blueviolet;
-    colo:blueviolet;
-    background-color: white;
 
-}
 .bg-azul{
 background-color: blue;
 
