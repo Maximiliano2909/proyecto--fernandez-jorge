@@ -1,0 +1,37 @@
+h1 {
+  color: green;
+}
+
+nav {
+  background-color: blue;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 15px;
+}
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: blue;
+}
+
+.btn-principal {
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  transition: 0, 2s ease-in;
+}
+
+.bg-azul {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
