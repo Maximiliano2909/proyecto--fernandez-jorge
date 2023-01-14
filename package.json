@@ -1,0 +1,23 @@
+{
+  "name": "preentrega-2-fernadez-jorge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/main.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maximiliano2909/proyecto--fernandez-jorge.git"
+  },
+  "author": "\"jorge fernandez\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maximiliano2909/proyecto--fernandez-jorge/issues"
+  },
+  "homepage": "https://github.com/Maximiliano2909/proyecto--fernandez-jorge#readme",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
+}
