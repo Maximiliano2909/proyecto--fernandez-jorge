@@ -1,0 +1,9 @@
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(2,1fr)
+    &-img{
+        width:100;
+        object-fit: cover;
+        &:hover{transform:scale(2);}
+    }
+}

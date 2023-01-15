@@ -1,27 +1,7 @@
-h1 { color: green;}
+@import"../utils/variables";
+@import"../base/base";
 
-nav{background-color: blue;padding: 15px;
-ul {list-style: none; display: flex;
+@import"../components/botones";
+@import"../pages/galeria";
 
-li{padding: 15px;
-
-a {font-size: 20px; text-decoration: none;
-}
-}
-}
-}
-footer{background-color: blue;}
-.btn-principal{
-    border: 2px solid blueviolet;
-    border-radius: 10px;
-background-color:blueviolet;
-color:white;
-transition: 0,2s ease-in;
-}
-
-.bg-azul{
-background-color: blue;
-
-}
-
-
+h1{color: black;}
