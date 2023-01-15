@@ -1,7 +1,6 @@
-@import"../utils/variables";
-@import"../base/base";
+@import"./utils/variables";
+@import"./base/base";
 
-@import"../components/botones";
-@import"../pages/galeria";
+@import"./components/botones";
+@import"./pages/galeria";
 
-h1{color: black;}

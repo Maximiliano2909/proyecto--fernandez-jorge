@@ -1,6 +1,18 @@
+/* Error: Expected identifier.
+ *   ,
+ * 3 | $ tipografia-primario:font-style:italic; font:400; text-decoration: underline;  text-align:center; font-size: 16px; font-family: "Monserat", sans-serif;
+ *   |  ^
+ *   '
+ *   scss\utils\_variables.scss 3:2  @import
+ *   scss\main.scss 1:8              root stylesheet */
 
-
-
-
-
-/*# sourceMappingURL=styles.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Expected identifier.\a   \2577 \a 3 \2502  $ tipografia-primario:font-style:italic; font:400; text-decoration: underline;  text-align:center; font-size: 16px; font-family: "Monserat", sans-serif;\d\a   \2502   ^\a   \2575 \a   scss\\utils\\_variables.scss 3:2  @import\a   scss\\main.scss 1:8              root stylesheet';
+}
