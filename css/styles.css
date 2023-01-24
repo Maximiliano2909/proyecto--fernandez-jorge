@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav {
+  background-color: blue;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 15px;
+}
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 350px;
+}
+.tarjeta_titulo {
+  font-size: 24px;
+}
+.tarjeta_titulo_Titulo {
+  font-size: 22px;
+}
+
+.btn-principal {
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  transition: 0, 2s ease-in;
+}
+
+.bg-azul {
+  background-color: blue;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */

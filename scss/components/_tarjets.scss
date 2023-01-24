@@ -1,0 +1,25 @@
+.tarjeta{
+    width: 300px;
+    height: 350px;
+    &_titulo{
+        font-size: 24px;
+        &_Titulo{
+            font-size: 22px;
+        }
+    }
+}
+
+
+
+.btn-principal{
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+background-color:blueviolet;
+color:white;
+transition: 0,2s ease-in;
+}
+
+.bg-azul{
+background-color: blue;
+
+}
