@@ -10,7 +10,33 @@ a{
 ul,
 ol{list-style: none;}
 
-h1{font-size: 24px;}
+h1{font-size: 24px;
+/* Tipografia italic*/
+
+font-style:$tipografia-primaria; 
+
+/* Peso tipografico*/
+
+font: 400;
+
+/*Decoracion del texto*/
+
+text-decoration:underline;
+
+/*Alineado del texto*/
+
+text-align:center ;
+
+/*Tamaño tipografico*/
+
+font: size 16px; ;
+
+
+}
+header{
+    background-color: burlywood;
+    
+    }
 
 
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +16,24 @@ ol {
 
 h1 {
   font-size: 24px;
+  /* Tipografia italic*/
+  font-style: italic;
+  /* Peso tipografico*/
+  font: 400;
+  /*Decoracion del texto*/
+  text-decoration: underline;
+  /*Alineado del texto*/
+  text-align: center;
+  /*Tamaño tipografico*/
+  font: size 16px;
+}
+
+header {
+  background-color: burlywood;
 }
 
 nav {
-  background-color: blue;
+  background-color: beige;
   padding: 15px;
 }
 nav ul {
@@ -53,7 +68,14 @@ nav ul li a {
 }
 
 .bg-azul {
-  background-color: blue;
+  background-color: rosybrown;
+}
+
+.img {
+  height: auto;
+  width: auto;
+  max-height: 600px;
+  max-width: 600px;
 }
 
 h1 {
