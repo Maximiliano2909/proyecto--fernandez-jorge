@@ -59,6 +59,17 @@ nav ul li a {
   font-size: 22px;
 }
 
+.tarjeta__titulo, .tarjeta__titulo--oferta {
+  font-size: 2rem;
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.tarjeta__titulo--oferta {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
 .btn-principal {
   border: 2px solid blueviolet;
   border-radius: 10px;

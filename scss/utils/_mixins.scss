@@ -1,0 +1,22 @@
+@mixin mobile-lg{
+    @media(min-width: 576px){@content;
+    }
+}
+
+@mixin tablet{
+    @media(min-width: 768px){
+        @content;
+    }
+}
+
+@mixin flex-box($justify:center,$align:center){
+    display: flex;
+    justify-content:$justify;
+    align-items:$align;
+}
+
+@mixin flex-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
