@@ -34,7 +34,7 @@ h1 {
 }
 
 header {
-  background-color: burlywood;
+  background-color: rgb(222, 135, 160);
 }
 
 nav {
@@ -73,14 +73,14 @@ nav ul li a {
 }
 
 .bg-azul {
-  background-color: rosybrown;
+  background-color: rgb(208, 43, 226);
 }
 
 .img {
   height: auto;
   width: auto;
-  max-height: 600px;
-  max-width: 600px;
+  max-height: 100px;
+  max-width: 100px;
 }
 
 h1 {
@@ -89,6 +89,14 @@ h1 {
 
 h2 {
   color: green;
+}
+
+H5 {
+  color: blue;
+}
+
+.bg-color {
+  background-color: coral;
 }
 
 p {
