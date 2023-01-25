@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.tarjeta {
+  width: 200px;
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 24px;
+  /* Tipografia italic*/
+  font-style: italic;
+  /* Peso tipografico*/
+  font: 400;
+  /*Decoracion del texto*/
+  text-decoration: underline;
+  /*Alineado del texto*/
+  text-align: center;
+  /*Tamaño tipografico*/
+  font: size 16px;
+}
+
+header {
+  background-color: rgb(222, 135, 160);
+}
+
+nav {
+  background-color: beige;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  float: left;
+}
+nav ul li {
+  padding: 15px;
+}
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 350px;
+}
+.tarjeta_titulo {
+  font-size: 24px;
+}
+.tarjeta_titulo_Titulo {
+  font-size: 22px;
+}
+
+.btn-principal {
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: blue;
+  transition: 0, 2s ease-in;
+}
+
+.bg-rosa {
+  background-color: rgb(208, 43, 226);
+}
+
+.img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+H5 {
+  color: blue;
+}
+
+.bg-color {
+  background-color: coral;
+}
+
+p {
+  color: blue;
+}
+
+h2¨ {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+
+span {
+  color: blue;
+}
+
+h4 {
+  color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
