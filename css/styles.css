@@ -64,15 +64,7 @@ nav ul li a {
   font-size: 22px;
 }
 
-.btn-principal {
-  border: 2px solid blueviolet;
-  border-radius: 10px;
-  background-color: blueviolet;
-  color: white;
-  transition: 0, 2s ease-in;
-}
-
-.bg-azul {
+.bg-rosa {
   background-color: rgb(208, 43, 226);
 }
 
