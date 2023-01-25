@@ -13,20 +13,6 @@
 
 
 
-.tarjeta__titulo{
-    font-size: 2rem;
-    color: green;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-weight: bold;
-   &--oferta{
-    @extend.tarjeta__titulo;
-    font-size: 3rem;
-    text-decoration: underline;
-
-   }
-}
-
-
 
 .btn-principal{
     border: 2px solid blueviolet;

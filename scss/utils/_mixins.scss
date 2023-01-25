@@ -20,3 +20,22 @@
     justify-content:center;
     align-items:center;
 }
+
+
+
+
+@mixin box($width,$height,$radius:0){
+    width: $width;
+    height: $height;
+
+    @if $radius !=0 {
+        border-radius: $radius;
+    }
+}
+
+
+
+.tarjeta{
+    @include box(200px,200px)
+}
+

@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.tarjeta {
+  width: 200px;
+  height: 200px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -59,17 +64,6 @@ nav ul li a {
   font-size: 22px;
 }
 
-.tarjeta__titulo, .tarjeta__titulo--oferta {
-  font-size: 2rem;
-  color: green;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: bold;
-}
-.tarjeta__titulo--oferta {
-  font-size: 3rem;
-  text-decoration: underline;
-}
-
 .btn-principal {
   border: 2px solid blueviolet;
   border-radius: 10px;
@@ -90,11 +84,31 @@ nav ul li a {
 }
 
 h1 {
-  color: red;
+  color: blue;
 }
 
 h2 {
   color: green;
+}
+
+p {
+  color: blue;
+}
+
+h2¨ {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+
+span {
+  color: blue;
+}
+
+h4 {
+  color: blue;
 }
 
 /*# sourceMappingURL=styles.css.map */
