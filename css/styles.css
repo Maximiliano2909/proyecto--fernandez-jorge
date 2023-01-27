@@ -44,6 +44,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+  float: left;
 }
 nav ul li {
   padding: 15px;
@@ -62,6 +63,18 @@ nav ul li a {
 }
 .tarjeta_titulo_Titulo {
   font-size: 22px;
+}
+
+.btn-principal {
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: blue;
+  transition: 0, 2s ease-in;
+}
+
+.bg-azul {
+  background-color: rosybrown;
 }
 
 .bg-rosa {
@@ -95,14 +108,27 @@ p {
   color: blue;
 }
 
-h2¨ {
-  color: blue;
+.color {
+  color: maroon;
+  font-size: 45px;
 }
 
-tr {
-  color: blue;
+.color-2 {
+  color: brown;
+  font-size: 30px;
 }
 
+/*h1{
+
+    color: maroon; 
+    font-size: 45px;
+
+
+}
+p{color: brown;
+    font-size: 30px;
+}
+tr {color:maroon; font-size: 30px;}*/
 h3 {
   color: blue;
 }
