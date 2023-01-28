@@ -93,15 +93,11 @@ h1 {
 }
 
 h2 {
-  color: green;
+  color: color green;
 }
 
 H5 {
   color: blue;
-}
-
-.bg-color {
-  background-color: coral;
 }
 
 p {
@@ -110,6 +106,14 @@ p {
 
 .div {
   color: blue;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 h3 {
