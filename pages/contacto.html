@@ -72,27 +72,29 @@
 <section class="container">
       
   <div class="row my-5">
-    <div class="col-lg-8 d-lg-flex flex-column justify-content-between">      
-      <form action="" class="row">
+    <div class="col-lg-8 d-lg-flex flex-column justify-content-between"> 
+        <div class="row">  
+      <form name="contacto" netlify>
         <div class="col-lg-5">
-          <input type="text" class="form-control mb-3 col-lg-5" placeholder="Nombre y apellido">
+          <input type="text"name="nombre-apellido" class="form-control mb-3 col-lg-5" placeholder="Nombre y apellido">
         </div>
         <div class="col-lg-5">
-          <input type="email" class="form-control mb-3" placeholder="Mail@ejemplo.com">
+          <input type="email" name="email" class="form-control mb-3" placeholder="email@ejemplo.com">
         </div>
         <div class="col-lg-5">
-          <input type="email" class="form-control mb-3" placeholder="Telefono">
+          <input type="text"name="telefono" class="form-control mb-3" placeholder="Telefono">
         </div>
         <div class="col-lg-5">
-          <input type="email" class="form-control mb-3" placeholder="Comentario">
+          <input type="text"name="comentario" class="form-control mb-3" placeholder="Comentario">
         </div>
         <div class="col-lg-5">
-          <input type="email" class="form-control mb-3" placeholder="Tipo de evento que desea festejar">
+          <input type="text" name="tipo de evento" class="form-control mb-3" placeholder="Tipo de evento que desea festejar">
         </div>
         <div class="d-flex justify-content-center  align-items-start col-lg-2">
-          <input type="submit" value="Enviar" class="btn btn-lg btn-principal">
+          <input type="submit" value="Enviar" name="btn-principal" class="btn btn-lg btn-principal">
         </div>
       </form>
+    </div> 
     </div>
   </div>
 </section>
