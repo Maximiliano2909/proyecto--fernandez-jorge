@@ -32,11 +32,6 @@ background-color: rosybrown
 .bg-rosa{background-color:rgb(208, 43, 226);
 }
 
-.img{
-    height: auto;
-    width: auto;
-    max-height: 100px;
-    max-width: 100px;
-    border-radius: 50px;
+.img{border-radius: 3px;
     transform: scale(2);
 }
